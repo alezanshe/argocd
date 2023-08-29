@@ -21,7 +21,6 @@ spec:
       containers:
       - image: mysql:8.0
         name: mysql
-        replicas: 10
         env:
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:

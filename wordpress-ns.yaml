@@ -4,3 +4,4 @@ metadata:
   name: wordpress
   labels:
     name: wordpress
+  namespace: wordpress
